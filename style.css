@@ -325,6 +325,7 @@ p {
 
 #experience {
   position: relative;
+  overflow: visible;
 }
 
 .experience-sub-title {
