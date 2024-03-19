@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+
+
+
+    <nav id="desktop-nav">
+      <div class="logo"> DEVKOTA </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+    
+    <nav id="hamburger-nav">
+      <div class="logo"> DEVKOTA </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/profile-picture.png" alt=" Profile Picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I am </p>
+            <h1 class="title"> Pratyush Devkota </h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/Resume.pdf')">
+                    Resume</button>
+                <button class="btn btn-color-2" onclick="location.href='https://photos.app.goo.gl/YzEVHRtWLEvDaXPo8'">
+                    Certifications</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                    Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="My linkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/pratyush-devkota-9317461b8/'"
+                />
+                <img src="./Assets/github.png" alt="My Github Profile"
+                class="icon" onclick="location.href='https://github.com/DevkotaPratyush'"
+                />
+           </div>
+        </div>
+    </section>
+
+
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about-pic.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>Analyst @ DXC Technology <br/>(June 2022-Present) <br />
+                Former IT intern - Web Developer @ UPS <br/>
+                Former Mathematics Course Tutor @ SELU <br/>
+                Former President- Nepali Student's Association
+                </p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>B.Sc. Computer Science<br />Southeastern Louisiana University <br/>
+                    ●Top 3 International Student of 2023 </li> <br />
+                    ●Award for Outstanding Leadership<br/>
+                    ●Student Organization Excellence Award     </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Hello! I am a young professional driven by a relentless passion for tackling complex 
+                challenges and crafting impactful solutions by leveraging my
+                data analyst skills combined with my product management mindest. While my professional journey may be in its early stages, my past 
+                experience as an an intern and analyst at DXC for 2 years, Web developer intern with United Parcel Service, and
+                a Mathematics course Tutor at my university for 2 years along with my Professional Scrum Master certification and 
+                Project Management Professional Certification from Google has shaped my technical and analytical skills and helped me 
+                understand develop an  agile mindset.
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+
+
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title"> Program Analyst @ DXC </h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Experience </h3>
+                      <p>Explaination</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                        <h3>Experience </h3>
+                        <p>Explaination</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                        <h3>Experience </h3>
+                        <p>Explaination</p>
+                    </div>
+                  </article>
+            </div>
+         
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Web-Dev Intern @ UPS</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                        <h3>Experience </h3>
+                        <p>Explaination</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                        <h3>Experience </h3>
+                        <p>Explaination</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                        <h3>Experience </h3>
+                        <p>Explaination</p>
+                    </div>
+                  </article>
+                  </div>
+                  </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Experience </h3>
+                      <p>Explaination</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Experience </h3>
+                      <p>Explaination</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Experience </h3>
+                      <p>Explaination</p>
+                  </div>
+                </article>
+                </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/PM Image.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Product Management </h2>
+              <div class="btn-container">
+                
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/drive/u/1/folders/1A849Nu1YwaewFeK1ccP_i5Z5a73jALrB'"
+                >
+                  View Projects
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/DA image.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Data Analysis</h2>
+              <div class="btn-container">
+
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://photos.app.goo.gl/7kA1q6LuDjEdUtyX7'""
+                >
+                  View Projects
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://photos.app.goo.gl/7kA1q6LuDjEdUtyX7'"
+                >
+                  Github
+                </button> -->
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Design Image.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"> Designs and Prototypes </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://photos.app.goo.gl/DQ7gZEDDTT2SRLRJ8'"
+                >
+                  View Projects
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+        </section>
+
+        <section id="contact">
+            <h1 class="title">Contact Me</h1>
+            <p class="section__text__p1">pratyush.devkota.31@gmail.com</p>            
+            <div class="section-container">
+                <div class="section__pic-container">
+                  <img
+                    src="./assets/Contact Image.jpg"
+                    alt="Profile picture"
+                    class="contact-pic"
+                  />
+                </div>
+                <div class="contact-details-container">
+                    <div class="text-container">
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>     
+                                <input type="text" name="Email" placeholder="Your Email" required>     
+                                <input type="text" name="Phone" placeholder="Phone" required>     
+                                <textarea name="Message" rows=6 placeholder="Message" required> </textarea> <br/>
+                                <button type="submit" class="btn btn2">Send Message</button>
+                                <span id="msg"></span>       
+                            </form> 
+                            
+                        </div>
+                        
+                    </div>    
+                    
+                </div>
+              </div>
+             
+        <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p> Built with a lot of love and a little bit of JavaScript &#169; If you want something you never had, you must be willing to do something you've never done. </p>
+          </footer>
+        </section>
+        <script src="script.js"></script>    
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby6kUT2N1EGDvexbQvxCGrbGmgXdHwfri3mz7MSxN7L4GQsPAkU-4kAIK8R0vEckzdK/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg= document.getElementById ("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                   msg.innerHTML="Message Sent Successfully"
+                   setTimeout(() => {
+                    msg.innerHTML=""
+                   },5000);
+                   form.reset     
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>
